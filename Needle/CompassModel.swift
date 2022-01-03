@@ -87,7 +87,7 @@ extension CompassModel {
 
 // MARK: - Direction
 extension CompassModel {
-    enum Direction {
+    enum Direction: String {
         case north, east, south, west
     }
 }

@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct Arrow: View {
+    @ObservedObject var compassVM = CompassVM()
+    let index: Int
+    
     var body: some View {
-        Image(systemName: "chevron.right")
+        Rectangle()
+            .frame(width: 50, height: 50)
+            .foregroundColor(.red)
+            .onTapGesture {
+                compassVM.selectDirection(position: index)
+            }
+            .overlay(Text(compassVM.arrows[index].rawValue))
     }
 }
 
 struct Arrow_Previews: PreviewProvider {
     static var previews: some View {
-        Arrow()
+        Arrow(compassVM: CompassVM(), index: 1)
     }
 }

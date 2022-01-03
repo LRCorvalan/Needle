@@ -22,34 +22,14 @@ struct ContentView: View {
                     compassVM.selectDirection(position: 0)
                 }
                 .overlay(Text(compassVM.arrows[0].rawValue))
-                
-                
             
             HStack {
-                Rectangle()
-                    .frame(width: 50, height: 50)
-                    .foregroundColor(.red)
-                    .onTapGesture {
-                        compassVM.selectDirection(position: 3)
-                    }
-                    .overlay(Text(compassVM.arrows[3].rawValue))
+                Arrow(compassVM: compassVM, index: 3)
                 
-                Rectangle()
-                    .frame(width: 50, height: 50)
-                    .foregroundColor(.red)
-                    .onTapGesture {
-                        compassVM.selectDirection(position: 1)
-                    }
-                    .overlay(Text(compassVM.arrows[1].rawValue))
+                Arrow(compassVM: compassVM, index: 1)
             }
             
-            Rectangle()
-                .frame(width: 50, height: 50)
-                .foregroundColor(.red)
-                .onTapGesture {
-                    compassVM.selectDirection(position: 2)
-                }
-                .overlay(Text(compassVM.arrows[2].rawValue))
+            Arrow(compassVM: compassVM, index: 2)
         }
     }
 }

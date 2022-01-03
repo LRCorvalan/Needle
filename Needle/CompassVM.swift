@@ -9,18 +9,12 @@ import SwiftUI
 
 class CompassVM: ObservableObject {
     @Published private(set) var compassModel = CompassModel()
-}
-
-// MARK: - Functions
-extension CompassVM {
+    
+    typealias Direction = CompassModel.Direction
+    
     func selectDirection(position: Int) {
         compassModel.selectDirection(arrows[position])
     }
-}
-
-// MARK: - Properties
-extension CompassVM {
-    typealias Direction = CompassModel.Direction
     
     var score: Int {
         return compassModel.score
