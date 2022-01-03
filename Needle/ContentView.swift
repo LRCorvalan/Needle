@@ -17,29 +17,39 @@ struct ContentView: View {
             
             Rectangle()
                 .frame(width: 50, height: 50)
+                .foregroundColor(.red)
                 .onTapGesture {
-                    compassVM.swipeDirection(.north)
+                    compassVM.selectDirection(position: 0)
                 }
+                .overlay(Text(compassVM.arrows[0].rawValue))
+                
+                
             
             HStack {
                 Rectangle()
                     .frame(width: 50, height: 50)
+                    .foregroundColor(.red)
                     .onTapGesture {
-                        compassVM.swipeDirection(.west)
+                        compassVM.selectDirection(position: 3)
                     }
+                    .overlay(Text(compassVM.arrows[3].rawValue))
                 
                 Rectangle()
                     .frame(width: 50, height: 50)
+                    .foregroundColor(.red)
                     .onTapGesture {
-                        compassVM.swipeDirection(.east)
+                        compassVM.selectDirection(position: 1)
                     }
+                    .overlay(Text(compassVM.arrows[1].rawValue))
             }
             
             Rectangle()
                 .frame(width: 50, height: 50)
+                .foregroundColor(.red)
                 .onTapGesture {
-                    compassVM.swipeDirection(.south)
+                    compassVM.selectDirection(position: 2)
                 }
+                .overlay(Text(compassVM.arrows[2].rawValue))
         }
     }
 }

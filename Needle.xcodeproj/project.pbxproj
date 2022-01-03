@@ -59,9 +59,10 @@
 		97D7920B2782353800250729 /* Needle */ = {
 			isa = PBXGroup;
 			children = (
-				97D7921D2782356D00250729 /* Model */,
-				97D7921C2782355800250729 /* View Controller */,
-				97D7921B2782355100250729 /* Views */,
+				97D79225278272DD00250729 /* Custom Views */,
+				97D7922127823E9700250729 /* CompassModel.swift */,
+				97D7922327826AC800250729 /* CompassVM.swift */,
+				97D7920E2782353800250729 /* ContentView.swift */,
 				97D7921E2782390300250729 /* Extra */,
 				97D7921A2782354600250729 /* Support */,
 				97D792122782353800250729 /* Preview Content */,
@@ -84,31 +85,6 @@
 				97D792102782353800250729 /* Assets.xcassets */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		97D7921B2782355100250729 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				97D79225278272DD00250729 /* Custom Views */,
-				97D7920E2782353800250729 /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		97D7921C2782355800250729 /* View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				97D7922327826AC800250729 /* CompassVM.swift */,
-			);
-			path = "View Controller";
-			sourceTree = "<group>";
-		};
-		97D7921D2782356D00250729 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				97D7922127823E9700250729 /* CompassModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		97D7921E2782390300250729 /* Extra */ = {
