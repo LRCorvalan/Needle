@@ -11,6 +11,10 @@
 		97D7920F2782353800250729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7920E2782353800250729 /* ContentView.swift */; };
 		97D792112782353800250729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D792102782353800250729 /* Assets.xcassets */; };
 		97D792142782353800250729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D792132782353800250729 /* Preview Assets.xcassets */; };
+		97D792202782392000250729 /* Added Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7921F2782392000250729 /* Added Images.swift */; };
+		97D7922227823E9700250729 /* CompassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7922127823E9700250729 /* CompassModel.swift */; };
+		97D7922427826AC800250729 /* CompassVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7922327826AC800250729 /* CompassVM.swift */; };
+		97D79227278272EA00250729 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D79226278272EA00250729 /* Arrow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		97D7920E2782353800250729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97D792102782353800250729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D792132782353800250729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97D7921F2782392000250729 /* Added Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Added Images.swift"; sourceTree = "<group>"; };
+		97D7922127823E9700250729 /* CompassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassModel.swift; sourceTree = "<group>"; };
+		97D7922327826AC800250729 /* CompassVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassVM.swift; sourceTree = "<group>"; };
+		97D79226278272EA00250729 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,11 @@
 		97D7920B2782353800250729 /* Needle */ = {
 			isa = PBXGroup;
 			children = (
-				97D7920C2782353800250729 /* NeedleApp.swift */,
-				97D7920E2782353800250729 /* ContentView.swift */,
-				97D792102782353800250729 /* Assets.xcassets */,
+				97D7921D2782356D00250729 /* Model */,
+				97D7921C2782355800250729 /* View Controller */,
+				97D7921B2782355100250729 /* Views */,
+				97D7921E2782390300250729 /* Extra */,
+				97D7921A2782354600250729 /* Support */,
 				97D792122782353800250729 /* Preview Content */,
 			);
 			path = Needle;
@@ -65,6 +75,56 @@
 				97D792132782353800250729 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97D7921A2782354600250729 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				97D7920C2782353800250729 /* NeedleApp.swift */,
+				97D792102782353800250729 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		97D7921B2782355100250729 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97D79225278272DD00250729 /* Custom Views */,
+				97D7920E2782353800250729 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97D7921C2782355800250729 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97D7922327826AC800250729 /* CompassVM.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		97D7921D2782356D00250729 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97D7922127823E9700250729 /* CompassModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97D7921E2782390300250729 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				97D7921F2782392000250729 /* Added Images.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		97D79225278272DD00250729 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				97D79226278272EA00250729 /* Arrow.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D7922427826AC800250729 /* CompassVM.swift in Sources */,
 				97D7920F2782353800250729 /* ContentView.swift in Sources */,
 				97D7920D2782353800250729 /* NeedleApp.swift in Sources */,
+				97D7922227823E9700250729 /* CompassModel.swift in Sources */,
+				97D792202782392000250729 /* Added Images.swift in Sources */,
+				97D79227278272EA00250729 /* Arrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

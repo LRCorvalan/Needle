@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct NeedleApp: App {
+    @StateObject var compassVM = CompassVM()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
