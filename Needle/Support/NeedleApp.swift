@@ -13,7 +13,7 @@ struct NeedleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(compassVM: compassVM)
         }
     }
 }
