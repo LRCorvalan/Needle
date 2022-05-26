@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LostView: View {
-    @ObservedObject var compassVM = CompassVM()
+    @ObservedObject var compassVM: CompassVM
     
     var body: some View {
         VStack {
@@ -60,6 +60,6 @@ struct LostView: View {
 
 struct LostView_Previews: PreviewProvider {
     static var previews: some View {
-        LostView()
+        LostView(compassVM: CompassVM())
     }
 }

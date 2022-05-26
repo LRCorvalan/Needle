@@ -24,9 +24,7 @@ struct DirectionGesture: Gesture {
                 let xDist = abs(gesture.location.x - self.startPos.x)
                 let yDist = abs(gesture.location.y - self.startPos.y)
                 
-                if (self.startPos.y > gesture.location.y) && (yDist > xDist) {
-                    compassVM.selectScreenPosition(.top)
-                } else if (self.startPos.x < gesture.location.x) && (yDist < xDist) {
+                if (self.startPos.x < gesture.location.x) && (yDist < xDist) {
                     compassVM.selectScreenPosition(.right)
                 } else if (self.startPos.y <  gesture.location.y) && (yDist > xDist) {
                     compassVM.selectScreenPosition(.bottom)

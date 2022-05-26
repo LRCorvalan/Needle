@@ -8,22 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		975523D927ADA6E70099C34D /* DirectionGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975523D827ADA6E70099C34D /* DirectionGesture.swift */; };
+		975FE988283EC88700ABFF88 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 975FE987283EC88700ABFF88 /* Realm */; };
+		975FE98A283EC88700ABFF88 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 975FE989283EC88700ABFF88 /* RealmSwift */; };
+		978399F62819D9C3004F6F06 /* DriveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978399F52819D9C3004F6F06 /* DriveImage.swift */; };
 		97D7920D2782353800250729 /* NeedleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7920C2782353800250729 /* NeedleApp.swift */; };
 		97D7920F2782353800250729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7920E2782353800250729 /* ContentView.swift */; };
 		97D792112782353800250729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D792102782353800250729 /* Assets.xcassets */; };
 		97D792142782353800250729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D792132782353800250729 /* Preview Assets.xcassets */; };
 		97D7922227823E9700250729 /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7922127823E9700250729 /* Compass.swift */; };
 		97D7922427826AC800250729 /* CompassVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7922327826AC800250729 /* CompassVM.swift */; };
-		97E739C627B2EDA80047515C /* CurvedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E739C527B2EDA80047515C /* CurvedRectangle.swift */; };
-		97E739C827B333D50047515C /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E739C727B333D50047515C /* DriveView.swift */; };
-		97E89B7B27ACBDFB0094922E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E89B7A27ACBDFB0094922E /* ScoreView.swift */; };
-		97E89B8227ACC27D0094922E /* DirectionRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E89B8127ACC27D0094922E /* DirectionRuleView.swift */; };
 		97E89B8427ACC93F0094922E /* LostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E89B8327ACC93F0094922E /* LostView.swift */; };
-		97E89B8727AD800D0094922E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 97E89B8627AD800D0094922E /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		975523D827ADA6E70099C34D /* DirectionGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionGesture.swift; sourceTree = "<group>"; };
+		978399F52819D9C3004F6F06 /* DriveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveImage.swift; sourceTree = "<group>"; };
 		97D792092782353800250729 /* Needle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Needle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D7920C2782353800250729 /* NeedleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleApp.swift; sourceTree = "<group>"; };
 		97D7920E2782353800250729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,10 +30,6 @@
 		97D792132782353800250729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97D7922127823E9700250729 /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
 		97D7922327826AC800250729 /* CompassVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassVM.swift; sourceTree = "<group>"; };
-		97E739C527B2EDA80047515C /* CurvedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedRectangle.swift; sourceTree = "<group>"; };
-		97E739C727B333D50047515C /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
-		97E89B7A27ACBDFB0094922E /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
-		97E89B8127ACC27D0094922E /* DirectionRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionRuleView.swift; sourceTree = "<group>"; };
 		97E89B8327ACC93F0094922E /* LostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E89B8727AD800D0094922E /* RealmSwift in Frameworks */,
+				975FE98A283EC88700ABFF88 /* RealmSwift in Frameworks */,
+				975FE988283EC88700ABFF88 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +73,10 @@
 		97D7920B2782353800250729 /* Needle */ = {
 			isa = PBXGroup;
 			children = (
-				975523DA27ADAED00099C34D /* Extra */,
 				97E89B7C27ACBE000094922E /* Model */,
 				97E89B7E27ACBE0B0094922E /* ViewModel */,
 				97E89B7D27ACBE060094922E /* View */,
+				975523DA27ADAED00099C34D /* Extra */,
 				97D7921A2782354600250729 /* Support */,
 				97D792122782353800250729 /* Preview Content */,
 			);
@@ -115,11 +111,9 @@
 		97E89B7D27ACBE060094922E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				97E739C527B2EDA80047515C /* CurvedRectangle.swift */,
-				97E739C727B333D50047515C /* DriveView.swift */,
-				97E89B7F27ACBE240094922E /* Custom View */,
 				97D7920E2782353800250729 /* ContentView.swift */,
 				97E89B8327ACC93F0094922E /* LostView.swift */,
+				978399F52819D9C3004F6F06 /* DriveImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -130,15 +124,6 @@
 				97D7922327826AC800250729 /* CompassVM.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		97E89B7F27ACBE240094922E /* Custom View */ = {
-			isa = PBXGroup;
-			children = (
-				97E89B7A27ACBDFB0094922E /* ScoreView.swift */,
-				97E89B8127ACC27D0094922E /* DirectionRuleView.swift */,
-			);
-			path = "Custom View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +143,8 @@
 			);
 			name = Needle;
 			packageProductDependencies = (
-				97E89B8627AD800D0094922E /* RealmSwift */,
+				975FE987283EC88700ABFF88 /* Realm */,
+				975FE989283EC88700ABFF88 /* RealmSwift */,
 			);
 			productName = Needle;
 			productReference = 97D792092782353800250729 /* Needle.app */;
@@ -189,7 +175,7 @@
 			);
 			mainGroup = 97D792002782353800250729;
 			packageReferences = (
-				97E89B8527AD800D0094922E /* XCRemoteSwiftPackageReference "realm-swift" */,
+				975FE986283EC88700ABFF88 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 97D7920A2782353800250729 /* Products */;
 			projectDirPath = "";
@@ -217,13 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978399F62819D9C3004F6F06 /* DriveImage.swift in Sources */,
 				97D7922427826AC800250729 /* CompassVM.swift in Sources */,
 				97D7920F2782353800250729 /* ContentView.swift in Sources */,
-				97E89B8227ACC27D0094922E /* DirectionRuleView.swift in Sources */,
 				97D7920D2782353800250729 /* NeedleApp.swift in Sources */,
-				97E739C627B2EDA80047515C /* CurvedRectangle.swift in Sources */,
-				97E739C827B333D50047515C /* DriveView.swift in Sources */,
-				97E89B7B27ACBDFB0094922E /* ScoreView.swift in Sources */,
 				97D7922227823E9700250729 /* Compass.swift in Sources */,
 				97E89B8427ACC93F0094922E /* LostView.swift in Sources */,
 				975523D927ADA6E70099C34D /* DirectionGesture.swift in Sources */,
@@ -363,6 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +376,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -431,7 +416,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		97E89B8527AD800D0094922E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		975FE986283EC88700ABFF88 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -442,9 +427,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		97E89B8627AD800D0094922E /* RealmSwift */ = {
+		975FE987283EC88700ABFF88 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 97E89B8527AD800D0094922E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = 975FE986283EC88700ABFF88 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		975FE989283EC88700ABFF88 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 975FE986283EC88700ABFF88 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

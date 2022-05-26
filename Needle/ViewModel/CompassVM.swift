@@ -38,8 +38,8 @@ class CompassVM: ObservableObject {
         compass.startGame()
     }
     
-    var rule: String {
-        compass.rule.name
+    var rule: Direction {
+        compass.rule
     }
     
     var score: Int {
@@ -53,5 +53,4 @@ class CompassVM: ObservableObject {
     enum ScreenPosition {
         case top, right, bottom, left
     }
-    
 }
